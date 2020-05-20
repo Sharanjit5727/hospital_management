@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/bg5"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+android:src="@drawable/logo"
+        />
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="@string/Email"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="#ffffff"
+
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_marginTop="40dp"
+        android:drawableTint="#76FF03"
+
+
+        android:layout_gravity="center"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="290dp"
+        android:layout_height="20dp"
+        android:id="@+id/textInputLayoutEmail"
+        app:errorEnabled="true"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="260dp"
+            android:layout_height="20dp"
+            android:id="@+id/emailedit"
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="@string/Password"
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="#ffffff"
+
+        android:inputType="numberPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawableTint="#76FF03"
+
+
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="290dp"
+        android:layout_height="20dp"
+        android:id="@+id/textInputLayoutPassword"
+        app:errorEnabled="true"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="260dp"
+            android:layout_height="20dp"
+            android:id="@+id/passwordedit"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:backgroundTint="#6EDF0F"
+        android:text="login"
+        android:id="@+id/loginbutton"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Registered ?"
+            android:layout_marginLeft="90dp"
+
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:onClick="func"
+            android:textColor="#FF1744"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text_register"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

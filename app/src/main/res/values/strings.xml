@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Hospitalcse226</string>
+    <string name="Email">email</string>
+    <string name="Password">password</string>
+    <string name="Username">username</string>
+    <string name="password_max_6_characters">password max 6 characters</string>
+    <string name="password_5_chars"><![CDATA[password >5 chars]]></string>
+
+    <string-array name="Spin">
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+    <string-array name="Spin2">
+        <item>Dr.Pannu</item>
+        <item>Dr.Simran</item>
+        <item>Dr.puneet</item>
+        <item>Dr.Raman</item>
+        <item>Dr.Anjali</item>
+        <item>Dr.Sunitha</item>
+        <item>Dr.Kaler</item>
+
+
+    </string-array>
+
+
+</resources>
